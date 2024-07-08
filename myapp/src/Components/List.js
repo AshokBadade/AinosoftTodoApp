@@ -20,10 +20,7 @@ function List({query}){
     const getdata = async () => {
           console.log("hello");
           const response = await axios.get("http://localhost:3002/get");
-         // const response = await axios.get("/get");
-         // console.log("response  : ", response);
             console.log("response array : ", response.data);
-         // console.log("response data : ", response.data[0]);
           setItem(response.data);
       }
 

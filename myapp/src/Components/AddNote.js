@@ -10,18 +10,10 @@ function AddNote({getdata,title,setTitle,content,setContent,setEditreq,editreq,I
   const [inputValue,setInputValue] = useState({}); 
   const textAreaRef = useRef(null);
   const inputRef = useRef(null);
-  // const [title,setTitle] = useState("") ;
-  // const [content,setContent] = useState("") ;
+  
    
 
 
-
-  // const handleChange = (e)=>{
-  //       setInputValue({ ...inputValue,  [e.target.name]: e.target.value  })
-  //       if(e.target.name="title"){ setTitle(e.target.value) }
-  //       else{ setContent(e.target.value) ;}
-  //       autoResizeTextarea();
-  //    }
 
      const handleChangeTitle = (e)=>{
        setInputValue({ ...inputValue,  [e.target.name]: e.target.value  })
@@ -53,7 +45,6 @@ function AddNote({getdata,title,setTitle,content,setContent,setEditreq,editreq,I
 
   const putdata = async (title,content,Idtitle) => {
     const response = await  axios.put("http://localhost:3002/put/"+Idtitle,  {
-   // const response = await  axios.put("/put/"+Idtitle,  {
         title: title,
         content: content
     });
@@ -64,7 +55,6 @@ function AddNote({getdata,title,setTitle,content,setContent,setEditreq,editreq,I
     
     const adddata = async() => {
         const response = await axios.post("http://localhost:3002/post",inputValue);
-       //const response = await axios.post("/post",inputValue);
         console.log("response  : ", response);
         getdata()
     }

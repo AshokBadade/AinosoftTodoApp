@@ -7,19 +7,11 @@ function Note({obj, getdata, title,setTitle,content,setContent, setEditreq, setI
 
     const deletedata = async () => {
         const response = await  axios.delete("http://localhost:3002/del", { data: { title: obj.title }, headers: { "Authorization": "***" } });
-       // const response = await  axios.delete("/del", { data: { title: obj.title }, headers: { "Authorization": "***" } });
          getdata();
         console.log("response array : ", response.data);
       }
 
-      // const putdata = async (title,content) => {
-      //   const response = await  axios.put("http://localhost:3002/put/"+title,  {
-      //       title: title,
-      //       content: content
-      //   });
-      //     console.log("response data: ", response.data);
-      //     getdata();
-      // }
+
 
       const putdata1 = async (obj) => {
           setTitle(obj.title)
