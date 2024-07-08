@@ -2,10 +2,10 @@ https://mern-keeper.vercel.app/
 
 
 
-<h1>MERNKeeper App </h1>
+<h1> AinosoftTodoApp </h1>
 
 
-MERNKeeper is a full-stack application built using the MERN stack (MongoDB, Express.js, React, Node.js) that allows users to create, read, update, and delete (CRUD) notes. This application provides a seamless user experience for managing personal notes efficiently.
+AinosoftTodoApp is a full-stack application built using the MERN stack (MongoDB, Express.js, React, Node.js) that allows users to create, read, update, and delete (CRUD) notes. This application provides a seamless user experience for managing personal notes efficiently.
 
 <h2>Features</h2>
 
