@@ -1,0 +1,31 @@
+.notecontainer{
+     background-color: #FDCEDF; 
+    width: 22%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    border: 2px solid rgb(0, 0, 0,0.1);
+    border-radius: 5%;
+    padding: 2%;
+    padding-bottom: 1%;
+ }
+
+ .notecontainer p , h3 {
+   white-space : pre-wrap ;
+ }
+
+ .deleditbtns{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-top: 2%;
+ }
+
+ .deleditbtns button {
+   margin-left: 2%;
+   border: none;
+   height: 25px;
+   background-color: #FDCEDF; 
+ }
+
+  
+  

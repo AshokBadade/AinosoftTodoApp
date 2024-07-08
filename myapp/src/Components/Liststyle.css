@@ -1,0 +1,10 @@
+.ListContainer {
+    /* background-color: rgb(228, 144, 144); */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+   
+    margin-top: 3%;
+    
+
+}

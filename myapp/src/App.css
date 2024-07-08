@@ -1,0 +1,39 @@
+.mynav{
+  height: 75px;
+  width: 100%;
+  border: 2px solid rgb(0, 0, 0,0.1);
+  /* background-color: #FFC96F; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo{
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.getbtn{
+  height: 50px;
+  width: 50px;
+  background-color: green ;
+}
+
+.Searchbar{
+  height: 45px;
+  width: 50%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+
+body{
+  background-color: #F9F5F6;
+}
+
+
+

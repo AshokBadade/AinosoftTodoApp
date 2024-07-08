@@ -1,0 +1,42 @@
+.divaddnote{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    width: 50%;
+    height: fit-content;
+    padding: 1%;
+    background-color: #F8E8EE;
+  }
+
+  .addtitle{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    outline: none; /* Ensure no outline on focus */
+    background-color: #F8E8EE;
+  }
+
+  .addnote{
+    height: 16px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none; /* Ensure no outline on focus */
+     resize: none;
+     overflow: hidden;
+     background-color: #F8E8EE;
+  }
+  
+ 
+
+  .addbtn{
+    margin-left: 85%;
+    font-weight: 600;
+  }
+  
+  
+  
+  
