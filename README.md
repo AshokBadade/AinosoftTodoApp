@@ -13,6 +13,7 @@ AinosoftTodoApp is a full-stack application built using the MERN stack (MongoDB,
 2. Read Notes: Users can view all their saved notes in a clean and organized layout.
 3. Update Notes: Users can edit the content of existing notes.
 4. Delete Notes: Users can delete notes they no longer need.
+5. Search Notes : User can search for notes. 
 
 <h2>Tech Stack</h2>
 
